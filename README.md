@@ -84,6 +84,7 @@ Keys:
 - `DEP_TARGET`: imported target for a single-target library.
 - `DEP_LIBS`: base library names on Unix, without `lib` prefix or extension.
 - `DEP_LIBS_WINDOWS`: Windows base names when they differ.
+- `DEP_SYSTEM_LIBS`: Unix base names for `SYSTEM` mode when they differ from `DEP_LIBS`.
 - `DEP_TARGETS`: multiple targets from one prefix, as `"Target::name|lib1 lib2"`.
 - `DEP_INCLUDE_SUBDIRS`: extra include dirs below `<prefix>/include`.
 - `DEP_SYSTEM_HEADER`: header used to validate `SYSTEM` mode.
